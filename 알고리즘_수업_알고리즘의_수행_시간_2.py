@@ -10,6 +10,7 @@ def MenOfPassion(A, n):
     return sum
 '''
 
+# O(n)의 시간 복잡도
 n = int(input())
 
 print(n)
