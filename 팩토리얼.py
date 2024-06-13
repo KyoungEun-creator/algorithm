@@ -18,7 +18,7 @@ n = int(input())
 
 def factorial(i):
     res = 1
-    if i > 0 :
+    if i > 0:
         res = i * factorial(i - 1)
     return res
 
