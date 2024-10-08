@@ -5,6 +5,18 @@
 # 3, 29, 38, 12, 57, 74, 40, 85, 61
 # 이 주어지면, 이들 중 최댓값은 85이고, 이 값은 8번째 수이다.
 
+
+# 24/10/08
+arr = []
+for _ in range(9) :
+    n = int(input())
+    arr.append(n)
+
+max_val = max(arr)
+print(max_val)
+print(arr.index(max_val)+1)
+
+# old
 arr = []
 for _ in range(9):
     n = int(input())
