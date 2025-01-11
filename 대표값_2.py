@@ -26,3 +26,5 @@ print(center_val)
 arr = [int(input()) for i in range(5)]
 print(sum(arr) // 5)
 print(sorted(arr)[2])
+
+
